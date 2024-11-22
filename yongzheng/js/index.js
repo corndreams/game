@@ -66,11 +66,11 @@ function yongzhengTalkFn() {
 
 function page5Show() {
 	page5.style.display = "block", door2Left.className = "closeDoorLeft", door2Right.className = "closeDoorRight", setTimeout(function() {
-		shengzhi.className = "shengzhi shengzhiShow", juanzhou2.className = "juanzhou2 juanzhou2Show", doorMo.className = "doorMo doorMoShow", setTimeout(function() {
-			juanzhou.style.opacity = 1, juanzhou2.style.opacity = 1, join.className = "join joinShow", setTimeout(function() {
-				chuanzhi.className = "chuanzhi chuanzhiShow", restart.className = "restart restartShow", wyLogo.className = "wyLogo wyLogoShow", chuanzhiBtn(), restartBtn()
-			}, 500)
-		}, 1e3)
+		// shengzhi.className = "shengzhi shengzhiShow", juanzhou2.className = "juanzhou2 juanzhou2Show", doorMo.className = "doorMo doorMoShow", setTimeout(function() {
+		// 	juanzhou.style.opacity = 1, juanzhou2.style.opacity = 1, join.className = "join joinShow", setTimeout(function() {
+		// 		chuanzhi.className = "chuanzhi chuanzhiShow", restart.className = "restart restartShow", wyLogo.className = "wyLogo wyLogoShow", chuanzhiBtn(), restartBtn()
+		// 	}, 500)
+		// }, 1e3)
 	}, 1e3)
 }
 
